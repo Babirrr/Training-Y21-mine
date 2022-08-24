@@ -1,32 +1,16 @@
 # ROS
 
-## Assignment 2
+## Assignment 3
 
-1) Created and built a directory catkin_ws and a directory src inside it to create a workspace.
-
-2) create a  package myrobot_gazebo and and directories worlds models and launch
-
-3) in the model directory createrd a .config and a .sdf file that describes the custom model.
-
-4) included the custom model and another model along with the sun model and the physics solver ODE
-
-5) Created a launch file that will launch the world file in the launch directory.
-
-6) Found the robot m2wr on the internet and used its code in m2wr_description package
-
-7) copy pasted its code involving its launch files (spawn.launch mainly) and urdf files.
-
-8) updated the launch file in myrobot_gazebo to spawn the robot too.
-
-9) used rostopic pub cmd to move the bot from the terminal.
-
-10) downloaded teleop twist package and used it to move the bot using the keyboard
-
-video link: https://youtu.be/dyVxJsUI5s4
-
-
-* myrobot_gazebo is the package that behaves as demo-gazebo in the workspace.
-
+1) Added the laser sensor to the robot and added the links to the xacro files in the urdf directory.
+2)added the camera sensor and their links to the xacro files for the 3 cameras.
+3)Add the plugins in the gazebo folder 
+4)Add the plugins in .gazebo file.
+5)Install slam_gmapping.
+6) Add the gmapping node in the rviz.launch file.
+7) Open up gazebo and rviz simultaneously
+8)Add the cameras and IMU to check. Use gmapping while moving the robot in gazebo 
+Youtube link:  https://www.youtube.com/watch?v=PaiBPxe2vOs
 
 
 
